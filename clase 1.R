@@ -5,14 +5,19 @@
 ##Eso lo hago una vez por compu
 #user.name=forlinolara, email=lara.rfw@gmail.com
 
+#------GIT------#
 #Comandos en terminal para conectar con github - esto lo hago cada vez que
 #quiero actualizar de git. Codigo:
-#git add -A (agrego los archivos nuevos - A es de ALL)
-#git commit -m "agrego nuevos archivos" - agrego comentarios
+#git add -A (agrego los archivos nuevos - A es de ALL, todos los archivos
+# diferencias de la versión remota)
+#git commit -m "agrego nuevos archivos" - sirve para empaquetar y etiquetar
 #"git push" - para actualizar en gitbub
 
+#---Pestaña git 
+#ahi podes ver los cambios con respecto a la version remota
+#click en commit, podes hacer todo con botonera
+
 #preguntas: creas un repositorio con el html de github, en donde se crea la carpeta local?
-#diferncia entre commit y add (commit es solo el comentario?)
 
 #Descargar paquetes oficiale - que pasaron por CRAN, no significa trucho - 
 #install.packages("nombre_del_paquete")
@@ -31,8 +36,8 @@ curso <- data.frame(nombre     = c("Juan", "Pedro", "María", "José","Enzo", "A
                     nivel      = c(3, 5,7, 6, 2, 6, 8))
 
 #Si quiero calcular el promedio de edad con R base uso esto:
-  mean(curso$edad)
-
+prueba <-  mean(curso$edad)
+lara <- "lara"
 #Con $ navego sobre las columnas de la base.
 
 #Con tidyverse
@@ -75,5 +80,13 @@ library (readr)
 library(haven)
 
 #Descargo Base de datos: https://datos.gob.ar/dataset/otros-inmuebles-propios-estado-nacional-alquilados
-
+#con ctrl + F puedo reemplazar las barras al reves
+#Apretando tab sobre la ruta me abre todos los archivos y puedo seleccionar
+#También si estoy en un proyecto puedo abrir comillas, tab y ya me sale
 inmuebles <- read_csv("C:/Users/laraf/OneDrive/Documentos/MAESTRIA/Genero/utdt/inmuebles-estado-nacional.csv")
+
+#"Alternativa", mejor para compartir con otra persona porque no tiene la ruta.
+#Para esto necesitas estar en un proyecto, pero es mas reproducible
+#"inmuebles <- read_csv("inmuebles-estado-nacional.csv")
+
+
