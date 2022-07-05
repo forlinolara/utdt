@@ -16,6 +16,8 @@
 #---Pestaña git 
 #ahi podes ver los cambios con respecto a la version remota
 #click en commit, podes hacer todo con botonera
+#podes poner revert para borrar lo que hiciste de tu script.
+#tambien con la flechita o el comando "git push" podes actualizar el repositorio
 
 #preguntas: creas un repositorio con el html de github, en donde se crea la carpeta local?
 
@@ -37,7 +39,6 @@ curso <- data.frame(nombre     = c("Juan", "Pedro", "María", "José","Enzo", "A
 
 #Si quiero calcular el promedio de edad con R base uso esto:
 prueba <-  mean(curso$edad)
-lara <- "lara"
 #Con $ navego sobre las columnas de la base.
 
 #Con tidyverse
