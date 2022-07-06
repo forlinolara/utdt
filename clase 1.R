@@ -346,7 +346,10 @@ b_definitivo <- b_inmuebles %>%
                                ~ "Entre 401 y 1000"))
 table(b_definitivo$sup_rangos)
 
-#tarea: hacer un fork de prueba_utdt, lo clonamos, 
+##TAREA CLASE 4##
+#######################
+
+#hacer un fork de prueba_utdt, lo clonamos, 
 #hacemos una carpeta con nuestro apellido
 #guardamos el script
 #hacemos un commit para pushear los cambios de nuestra version local y git
